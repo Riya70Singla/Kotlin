@@ -1,0 +1,12 @@
+fun main(args: Array<String>) {
+    println("Hello, world!!!")
+    var myNum=10
+    var myDouble=10.0
+    var myCharacter:Char
+    myCharacter='c'
+    var myString:String 
+    myString="Hello World"  //mutable String
+     myString="New Day"
+    val mynextString="Keep Learning" //immutable String
+    println(true) //print boolean
+}
