@@ -1,0 +1,23 @@
+/*
+fun main(args: Array<String>) {
+  var name:String = "Riya"
+    var PersonObj=Person()  //no new keyword required
+    PersonObj.display(name)
+}
+class Person{
+fun display(name : String){
+    print(name)
+}}
+ */
+fun main(args: Array<String>) {
+    var PersonObj=Person()  //no new keyword required
+    PersonObj.name="Riya"
+    println("The name of the person is ${PersonObj.name}")
+    PersonObj.display()
+}
+class Person{
+    var name:String=""
+fun display(){
+    print(name)
+}
+}
