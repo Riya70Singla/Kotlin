@@ -1,0 +1,7 @@
+fun main(args: Array<String>) {
+   var name:String = "Riya"
+    display(name)
+}
+fun display(name : String){
+    print(name)
+}
