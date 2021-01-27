@@ -1,0 +1,5 @@
+fun main(){
+    var name="Riya"
+    var str="$name Singla"
+    print("The name is $str.Length of the name is ${str.length}")
+}
