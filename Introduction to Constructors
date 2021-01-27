@@ -1,0 +1,10 @@
+fun main() {
+    
+    var PersonObj=Person("Riya")
+   
+    PersonObj.display()
+}
+class Person(var name:String){
+fun display(){
+    print(name)
+}}
