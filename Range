@@ -1,0 +1,8 @@
+fun main(){
+  val r1='a'.rangeTo('d')   //contains a,b,c,d
+  var r2=5.downTo(1)       //contains 5,4,3,2,1
+  var r3=1..5              //contains 1,2,3,4,5
+  var r4 =5 downTo 3
+  var ispresent=2 in r2   //check
+  print(ispresent)
+}
