@@ -1,0 +1,37 @@
+fun main(){
+  val a = 15
+    val b = 17
+   var maxValue:Int
+    if(a>b)
+    maxValue=a
+    else
+    maxValue=b
+    println(maxValue)
+    var Value:Int=if(a>b){ //Using if as an expression
+                  println("A is Greater")
+                  a}
+                  else{
+                       println("B is Greater")
+                  b}
+    println(Value)
+    
+    //In kotlin instead of switch case when is used
+    val x=3
+    when (x){
+        1 -> println("value is 1")
+        in 2 .. 5 -> println("value can range from 2 to 5")  //range can also be used
+        6,7 -> println("value can be 6 or 7") //comma can be used for multiple values too
+        else -> println("value is unknown")  //instead of default, else is used
+    }
+    //using when as an expression
+    var str:String=when (x){
+        1->"value is 1"
+        2->"value is 2"
+        else -> {
+            "value unknown"
+            "value is unknown"
+        }//in such case the last statement will only be printed
+      
+    }  
+    print(str) 
+}
