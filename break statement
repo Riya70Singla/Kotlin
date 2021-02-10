@@ -1,0 +1,18 @@
+fun main(){
+ println("break statement")
+for(i in 1..3){
+    for(j in 1..3){
+    println("$i $j")
+    if(i==2 && j==2)
+    break
+    }
+}
+//to break out of outer layer use labelled break statement
+myLoop@ for(i in 1..3){
+    for(j in 1..3){
+    println("$i $j")
+    if(i==2 && j==2)
+    break@myLoop
+    }
+}
+}
